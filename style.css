@@ -1,0 +1,379 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.first-section {
+    width: 100%;
+    /* height: 45px; */
+    background-color: #eae6e6;
+   
+   
+}
+.navBar{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+    padding: 10px 0;
+}
+.font-icon{
+    margin-right: 10%;
+}
+.menuBar{
+    margin-right: 10%;
+}
+.nav-info{
+    list-style: none;
+   
+}
+.li{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.li:hover{
+    color: orangered;
+   
+}
+
+.info{
+    width: 40%;
+    /* height: 300px; */
+    text-align: center;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    /* background-color: brown; */
+}
+/* .info:hover{
+    box-shadow: 0 0 5px orangered;
+} */
+.tasty{
+    font-size: 50px;
+    
+}
+.tasty:hover{
+    color: orangered;
+   
+}
+
+.banner img {
+    
+    width: 400px;
+    height: 300px;
+}
+.banner{
+    /* height: 400px; */
+    justify-content: center;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+button{
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #e44004;
+}
+.RECEIPE{
+    background-color: #ff440013;
+    color: orangered;
+    margin-bottom: 10px;
+}
+.Cook{
+    margin-right: 20px;
+}
+.Explore{
+    border: 2px solid orangered;
+    background-color: transparent;
+    color: orangered;
+}
+.Explore:hover{
+    background-color: orangered;
+    color: white;
+    
+}
+.Cook, .Explore{
+    margin-top: 10px;
+}
+
+.three{
+    width: 100%;
+    margin-bottom: 20px;
+ 
+}
+.week-recipe ,.categoty-info , .chef-info{
+   width: 50%;
+   margin: 0 auto;
+    text-align: center;
+   
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.week-recipe, .categoty-info p{
+    color: gray;
+}
+.week-recipe h1{
+    color: black;
+}
+.cart {
+    width: 250px;
+    height: 400px;
+    
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.29);
+}
+.cart:hover{
+    box-shadow: 0px 0px 3px;
+}
+
+   
+.cart img, h2{
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+   
+}
+.cart h2:hover{
+    color: orangered;
+}
+.cart p{
+    text-align: justify;
+    margin-top: 10px;font-size: 15px;
+    
+}
+.CARD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recipe-btn{
+   display: block;
+   margin: 0 auto;
+    
+}
+
+.category-picyure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.category-picyure h2{
+  margin: 85% 70% 0 0;
+}
+
+.picture1, .picture2 , .picture3,  .picture4{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px 20px 20px;
+    
+    border-radius: 10px;
+    -webkit-filter: blur(1.5px);
+    overflow: hidden;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+.picture1:hover, .picture2:hover , .picture3:hover,.picture4:hover{
+    -webkit-filter: blur(0px);
+    scale: 1.1;
+    font-weight: 600;
+    color: white;
+    font-size : 40px;
+}
+.picture1{
+    background-image: url(images/sweet.jpg);
+    background-size: cover;
+   
+
+}
+
+.picture2{
+    background-image: url(images/burgur.jpg);
+    background-size: cover;
+}
+.picture3{
+    background-image: url(images/drinks.jpg);
+    background-size: cover;
+}
+.picture4{
+    background-image: url(images/pizza.jpg);
+    background-size: cover;
+}
+
+.fourth-section{
+    /* background-color: bisque; */
+    width: 100%;
+    margin-bottom: 30px;
+   
+}
+.mobile-App-Info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.moblie-picture img{
+    width: 400px;
+    height: auto;
+    margin-right: 30px;margin-bottom: 20px;
+    justify-content: center;
+   
+}
+.app-info{
+    width: 45%;
+    text-align: center;
+    padding: 20px;
+}
+.app-info p{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+.app-info h1{
+    color: orangered;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0 0 20px  0;
+}
+
+.chef-information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chef-picture img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: 0.5s;
+   
+}
+.chef-picture img:hover{
+    scale: 1.1;
+    filter: brightness(1.1);
+}
+.chef-cart{
+    height: 350px;
+    background-color: transparent;
+    box-shadow: none;
+    text-align: center;
+    
+}
+.chef-cart:hover{
+    box-shadow: none;
+}
+.chef-cart h2{
+    margin: 20px 0 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
+.six-section{
+    width: 100%;
+    
+   
+    margin-bottom: 100px;
+   
+    
+}
+.newslatter{
+    margin: 0 auto;
+    padding: 30px;
+    width: 70%;
+    text-align: center;
+    box-shadow: 0px 0px 10px #8080804b;
+    border-radius: 10px;
+}
+.newslatter h1{
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 600;
+}
+.newslatter p{
+    color: gray;
+    padding-bottom: 20px;
+
+}
+.newslatter input{
+    width: 300px;
+    height: 23px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid orangered;
+}
+
+ 
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #333131;
+    justify-content: center;
+    
+}
+ .Meet-Tasty h3  , .Useful-links h3, .contact-us h3, .Download-app h3{
+    color: orangered;
+    font-weight: 400;
+}
+ .Meet-Tasty,.Useful-links, .contact-us, .Download-app {
+    
+    
+    text-align: left;
+    padding: 20px;
+    margin-right:10px ;
+    margin-bottom: 20px;
+    
+}
+
+.Meet-Tasty li , .Useful-links li{
+    list-style: none;
+}
+ a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: orangered;
+   
+}
+
+.copywrite{
+    background-color: #ff440034;
+}
+.copywrite p{
+    text-align: center;
+    color: rgb(22, 22, 21);
+    margin-bottom: 30px;
+}
+
+
